@@ -37,6 +37,7 @@ var findTerm = function (s) {
   return semester + year;
 };
 
+var completeCSV = "";
 files.forEach(function (file) {
   console.log("Working on: " + file);
   var results = [];
@@ -133,21 +134,26 @@ files.forEach(function (file) {
 
   // Write the output...
   var csv = "term,unit,lname,fname,role,ranking,courses\n";
+  if (completeCSV = "") { completeCSV = csv; }
   results.forEach(function (obj) {
     obj.courses.forEach(function (course) {
       if (course == "0") { course = ""; }
       if (course == "000") { course = ""; }
 
-      csv += obj.term + "," +
-             "\"" + obj.unit + "\"," +
-             obj.lname + "," +
-             obj.fname + "," +
-             obj.role + "," +
-             obj.ranking + "," +
-             course + "\n";
+      var str = obj.term + "," +
+                "\"" + obj.unit + "\"," +
+                obj.lname + "," +
+                obj.fname + "," +
+                obj.role + "," +
+                obj.ranking + "," +
+                course + "\n";
+
+      csv += str;
+      completeCSV += str;
     })
   });
 
-  fs.writeFileSync(path.join(rawCSVPath, "/tre-" + term + ".csv"), csv);
-
+  fs.writeFileSync(path.join(rawCSVPath, "tre-" + term + ".csv"), csv);
 });
+
+fs.writeFileSync(path.join(rawCSVPath, "..", "TRE-UIUC-AllYears.csv"), completeCSV);
