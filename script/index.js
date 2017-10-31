@@ -96,7 +96,7 @@ files.forEach(function (file) {
         var ranking = "Excellent";
         if (name[0] == "*") {
           name = name.substring(2);
-          ranking = "Oustanding";
+          ranking = "Outstanding";
         }
 
         nameSplit = name.split(",");

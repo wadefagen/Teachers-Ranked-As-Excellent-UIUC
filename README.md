@@ -33,7 +33,7 @@ All CSVs contain eight fields, with field labels in the first row and data in al
 
 - `role`: `Instructor` or `TA`
 
-- `ranking`: `Excellent` or `Oustanding`
+- `ranking`: `Excellent` or `Outstanding`
 
 - `course`: The course the teacher was ranked as excellent.  If no course is given, the `course` field is empty (this includes cases when the raw data lists the course as `0` or `000`).
   * Examples: `199`, `225`, `560`
