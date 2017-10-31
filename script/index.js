@@ -134,7 +134,7 @@ files.forEach(function (file) {
 
   // Write the output...
   var csv = "term,unit,lname,fname,role,ranking,courses\n";
-  if (completeCSV = "") { completeCSV = csv; }
+  if (completeCSV == "") { completeCSV = csv; }
   results.forEach(function (obj) {
     obj.courses.forEach(function (course) {
       if (course == "0") { course = ""; }
