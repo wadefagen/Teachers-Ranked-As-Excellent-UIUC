@@ -10,23 +10,27 @@ String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
 var files = fs.readdirSync(rawTxtPath);
 
 var containsCourseData = function(s) {
-  return /\d/.test(s);
+  return s.match(/\d/) || s.indexOf("*") != -1;
+  //return /\d/.test(s);
 };
+
+
+var term_re = /(WINTER|SPRING|SUMMER|FALL).*(\d\d\d\d)/;
+var page_re = /(PAGE (\d+))|(^\d+$)/;
 
 var isPageBoundry = function (s) {
   s = s.toUpperCase();
-  return !(
-    s.indexOf("SPRING") == -1 &&
-    s.indexOf("SUMMER") == -1 &&
-    s.indexOf("FALL") == -1 &&
-    s.indexOf("WINTER") == -1
-  );
+
+  var containsSemester = s.match(term_re);
+  var containsPage = s.match(page_re);
+
+  if (containsSemester || containsPage) { return true; }
+  else { return false; }
 };
 
 var findTerm = function (s) {
   s = s.toUpperCase();
 
-  var term_re = /(WINTER|SPRING|SUMMER|FALL) (\d+)/;
   var semester = term_re.exec(s)[1];
   var year = term_re.exec(s)[2];
 
@@ -86,29 +90,57 @@ files.forEach(function (file) {
       }
 
       else {
-        // Find the end of the name -- the first space after the optional "* "
+        // If there's no numbers on a line, the courses are contained on the next line:
+        if (!line.match(/\d/)) {
+          line += " " + lines[++i].trim();
+        }
+
+        // Find the end of the name -- the space after the optional "* "
         var endOfName = line.indexOf(",") + 2;
+        var firstDigit = /\d/.exec(line).index;
+
+
 
         // Split the line into [name][courseString] segments
-        var name = line.substring(0, endOfName);
-        var courseString = line.substring(endOfName).trim();
+        var name = line.substring(0, firstDigit).trim();
+        var courseString = line.substring(firstDigit).trim();
+
+        var personType = "Instructor";
+        if (name.substring(name.length - 2) == "TA") {
+          personType = "TA";
+          name = name.substring(0, name.length - 2).trim();
+        }
 
         // Check if the name contians a * to denote "Outstanding"
         var ranking = "Excellent";
         if (name[0] == "*") {
-          name = name.substring(2);
+          name = name.substring(1);
           ranking = "Outstanding";
         }
 
+        //console.log(name);
         nameSplit = name.split(",");
-        var fname = nameSplit[1];
-        var lname = nameSplit[0];
+        var fname = "";
+        if (nameSplit.length == 2) { fname = nameSplit[1].trim(); }
+        var lname = nameSplit[0].trim();
 
         // Parse the coures
+        /*
         var personType = "Instructor";
         if (courseString.startsWith("TA")) {
           personType = "TA";
           courseString = courseString.substring(2).trim();
+        }
+        */
+
+        // In fa2000, teachers with more than two courses have a ","
+        // at the end of the line and their courses continue to the next line.
+        //
+        // For example in f00incl.txt :149,150
+        //      *KESLER,D                374,331,
+        //                               231,110
+        while (courseString[courseString.length - 1] == ",") {
+          courseString += lines[++i].trim();
         }
 
         var courses = [];
@@ -133,12 +165,13 @@ files.forEach(function (file) {
 
 
   // Write the output...
-  var csv = "term,unit,lname,fname,role,ranking,courses\n";
+  var csv = "term,unit,lname,fname,role,ranking,course\n";
   if (completeCSV == "") { completeCSV = csv; }
   results.forEach(function (obj) {
     obj.courses.forEach(function (course) {
-      if (course == "0") { course = ""; }
-      if (course == "000") { course = ""; }
+      if (course == "0") { course = "?"; }
+      else if (course == "000") { course = "?"; }
+      else if (course == "999") { course = "?"; }
 
       var str = obj.term + "," +
                 "\"" + obj.unit + "\"," +

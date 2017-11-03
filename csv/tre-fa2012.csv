@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 fa2012,"ACCOUNTANCY",BAUER,A,Instructor,Excellent,312
 fa2012,"ACCOUNTANCY",BRAVERMAN,I,TA,Excellent,201
 fa2012,"ACCOUNTANCY",BROWN,T,Instructor,Outstanding,303
@@ -216,13 +216,13 @@ fa2012,"AVIATION",BECK,J,Instructor,Outstanding,225
 fa2012,"AVIATION",JONES,W,Instructor,Excellent,497
 fa2012,"AVIATION",LUCAS,D,Instructor,Outstanding,140
 fa2012,"AVIATION",LUCAS,D,Instructor,Outstanding,497
-fa2012,"AVIATION",MCCARRON,C,Instructor,Outstanding,
+fa2012,"AVIATION",MCCARRON,C,Instructor,Outstanding,?
 fa2012,"AVIATION",NUSBAUM,D,Instructor,Outstanding,101
 fa2012,"AVIATION",SUPPOK,J,Instructor,Excellent,210
 fa2012,"AVIATION",TALLEUR,D,Instructor,Outstanding,381
 fa2012,"AVIATION",TALLEUR,D,Instructor,Outstanding,455
 fa2012,"AVIATION",TILEV,E,Instructor,Outstanding,120
-fa2012,"AVIATION",VALADEZ,R,Instructor,Outstanding,
+fa2012,"AVIATION",VALADEZ,R,Instructor,Outstanding,?
 fa2012,"AVIATION",WEST,L,Instructor,Outstanding,184
 fa2012,"BIOENGINEERING",AMOS,J,Instructor,Excellent,120
 fa2012,"BIOENGINEERING",AMOS,J,Instructor,Excellent,435
@@ -962,7 +962,7 @@ fa2012,"FINANCE",CHOI,J,Instructor,Excellent,411
 fa2012,"FINANCE",DAVIS,J,Instructor,Excellent,241
 fa2012,"FINANCE",DERYUGINA,T,Instructor,Excellent,490
 fa2012,"FINANCE",DEUSKAR,P,Instructor,Excellent,592
-fa2012,"FINANCE",GOODFRIEND, ,Instructor,Outstanding,580
+fa2012,"FINANCE",GOODFRIEND,,Instructor,Outstanding,580
 fa2012,"FINANCE",J KRUEGER,G,Instructor,Excellent,423
 fa2012,"FINANCE",LYNGE,M,Instructor,Excellent,561
 fa2012,"FINANCE",MILLER,N,Instructor,Excellent,501
@@ -971,25 +971,25 @@ fa2012,"FINANCE",OLTHETEN,E,Instructor,Excellent,418
 fa2012,"FINANCE",SHOLEM,D,Instructor,Excellent,490
 fa2012,"FINANCE",SIANIS,S,TA,Excellent,435
 fa2012,"FINANCE",SIANIS,S,TA,Excellent,580
-fa2012,"FINANCE",SINOW, ,Instructor,Outstanding,435
-fa2012,"FINANCE",SINOW, ,Instructor,Outstanding,580
-fa2012,"FINANCE",D,undefined,Instructor,Excellent,419
+fa2012,"FINANCE",SINOW,,Instructor,Outstanding,435
+fa2012,"FINANCE",SINOW,,Instructor,Outstanding,580
+fa2012,"FINANCE",D,,Instructor,Excellent,419
 fa2012,"FINANCE",WASPI,K,Instructor,Excellent,521
 fa2012,"FINANCE",WASPI,K,Instructor,Excellent,580
 fa2012,"FINANCE",WEISBENNER,S,Instructor,Outstanding,500
 fa2012,"FINANCE",WEISBENNER,S,Instructor,Outstanding,512
 fa2012,"FINANCE",WEISBENNER,S,Instructor,Outstanding,516
-fa2012,"FINE AND APPLIED",T,undefined,Instructor,Excellent,A   101
-fa2012,"FINE AND APPLIED",ALBRECHT,L,TA,Excellent,101
-fa2012,"FINE AND APPLIED",BARBER, ,TA,Outstanding,101
-fa2012,"FINE AND APPLIED",B,undefined,TA,Excellent,101
-fa2012,"FINE AND APPLIED",BRENT,E,TA,Excellent,101
-fa2012,"FINE AND APPLIED",BROUK,R,TA,Outstanding,101
-fa2012,"FINE AND APPLIED",HART,E,TA,Excellent,101
-fa2012,"FINE AND APPLIED",HILE,E,TA,Excellent,101
-fa2012,"FINE AND APPLIED",JOHNSON,K,TA,Excellent,101
-fa2012,"FINE AND APPLIED",MALAMUD,E,TA,Excellent,101
-fa2012,"FINE AND APPLIED",NESVACIL,J,TA,Outstanding,101
+fa2012,"FINANCE",WIDDICKS,M,TA,Outstanding,101
+fa2012,"FINE AND APPLIED ARTS",ALBRECHT,L,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",BARBER,,TA,Outstanding,101
+fa2012,"FINE AND APPLIED ARTS",B,,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",BRENT,E,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",BROUK,R,TA,Outstanding,101
+fa2012,"FINE AND APPLIED ARTS",HART,E,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",HILE,E,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",JOHNSON,K,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",MALAMUD,E,TA,Excellent,101
+fa2012,"FINE AND APPLIED ARTS",NESVACIL,J,TA,Outstanding,101
 fa2012,"FOOD SCIENCE & HUMAN NUTRITION",ARBUS,J,Instructor,Excellent,340
 fa2012,"FOOD SCIENCE & HUMAN NUTRITION",BOHN,D,Instructor,Excellent,499
 fa2012,"FOOD SCIENCE & HUMAN NUTRITION",CADWALLADER,K,Instructor,Excellent,519
@@ -1508,8 +1508,8 @@ fa2012,"MATHEMATICS",KIRKORYAN,A,TA,Excellent,231
 fa2012,"MATHEMATICS",KOEHLER,D,TA,Excellent,231
 fa2012,"MATHEMATICS",LANIUS,M,TA,Excellent,231
 fa2012,"MATHEMATICS",LAUGESEN,R,Instructor,Excellent,598
-fa2012,"MATHEMATICS",LI,X,Instructor,Excellent,IANNAN           347
-fa2012,"MATHEMATICS",LI,X,Instructor,Excellent,IAOCHUN          545
+fa2012,"MATHEMATICS",LI,XIANNAN,Instructor,Excellent,347
+fa2012,"MATHEMATICS",LI,XIAOCHUN,Instructor,Excellent,545
 fa2012,"MATHEMATICS",LIANG,J,TA,Excellent,220
 fa2012,"MATHEMATICS",LONGFIELD,S,TA,Excellent,241
 fa2012,"MATHEMATICS",MAHONEY,T,TA,Outstanding,231
@@ -1693,7 +1693,7 @@ fa2012,"MUSIC",CARRILLO,T,Instructor,Outstanding,193
 fa2012,"MUSIC",CARRILLO,T,Instructor,Outstanding,266
 fa2012,"MUSIC",CARRILLO,T,Instructor,Outstanding,360
 fa2012,"MUSIC",CARRILLO,T,Instructor,Outstanding,450
-fa2012,"MUSIC",CHASANOV,E,Instructor,Excellent,999
+fa2012,"MUSIC",CHASANOV,E,Instructor,Excellent,?
 fa2012,"MUSIC",CHESTER,M,TA,Excellent,272
 fa2012,"MUSIC",COLEMAN,B,Instructor,Outstanding,181
 fa2012,"MUSIC",COLEMAN,B,Instructor,Outstanding,263
@@ -1705,19 +1705,20 @@ fa2012,"MUSIC",DIAZMUNOZ,E,Instructor,Outstanding,450
 fa2012,"MUSIC",DYE,C,TA,Excellent,272
 fa2012,"MUSIC",EHLEN,T,Instructor,Outstanding,580
 fa2012,"MUSIC",ENDRES,M,TA,Excellent,169
+fa2012,"MUSIC",FALLS,A,TA,Excellent,169
 fa2012,"MUSIC",FLORES,R,Instructor,Outstanding,158
 fa2012,"MUSIC",FLORES,R,Instructor,Outstanding,350
-fa2012,"MUSIC",FLORES,R,Instructor,Outstanding,999
+fa2012,"MUSIC",FLORES,R,Instructor,Outstanding,?
 fa2012,"MUSIC",GASS,C,TA,Excellent,272
 fa2012,"MUSIC",GRAY,L,Instructor,Outstanding,266
-fa2012,"MUSIC",GRAY,L,Instructor,Outstanding,999
+fa2012,"MUSIC",GRAY,L,Instructor,Outstanding,?
 fa2012,"MUSIC",HAROLD,S,TA,Excellent,107
 fa2012,"MUSIC",HELMRICH,D,Instructor,Outstanding,558
 fa2012,"MUSIC",HENNESSY,C,TA,Outstanding,110
-fa2012,"MUSIC",HERRERA,R,Instructor,Excellent,999
+fa2012,"MUSIC",HERRERA,R,Instructor,Excellent,?
 fa2012,"MUSIC",HOUSER,B,Instructor,Outstanding,270
 fa2012,"MUSIC",JARRELL,J,TA,Excellent,272
-fa2012,"MUSIC",KEEBLE,J,Instructor,Excellent,999
+fa2012,"MUSIC",KEEBLE,J,Instructor,Excellent,?
 fa2012,"MUSIC",KINDERMAN,W,Instructor,Outstanding,524
 fa2012,"MUSIC",LEYVA,J,Instructor,Excellent,242
 fa2012,"MUSIC",LEYVA,J,Instructor,Excellent,271
@@ -1727,23 +1728,23 @@ fa2012,"MUSIC",MCGOVERN,T,Instructor,Outstanding,191
 fa2012,"MUSIC",MCGOVERN,T,Instructor,Outstanding,255
 fa2012,"MUSIC",MIDDLETON,I,TA,Excellent,133
 fa2012,"MUSIC",MOERSCH,C,Instructor,Outstanding,451
-fa2012,"MUSIC",MOERSCH,C,Instructor,Outstanding,999
+fa2012,"MUSIC",MOERSCH,C,Instructor,Outstanding,?
 fa2012,"MUSIC",MOERSCH,W,Instructor,Outstanding,257
-fa2012,"MUSIC",MOERSCH,W,Instructor,Outstanding,999
+fa2012,"MUSIC",MOERSCH,W,Instructor,Outstanding,?
 fa2012,"MUSIC",MOORHOUSE,L,Instructor,Excellent,332
 fa2012,"MUSIC",MULLEN,J,TA,Outstanding,241
 fa2012,"MUSIC",NEFF,S,TA,Excellent,101
 fa2012,"MUSIC",NEFF,S,TA,Excellent,207
 fa2012,"MUSIC",NICHOLS,J,Instructor,Outstanding,335
 fa2012,"MUSIC",NICHOLS,J,Instructor,Outstanding,529
-fa2012,"MUSIC",REDMAN,Y,Instructor,Outstanding,999
+fa2012,"MUSIC",REDMAN,Y,Instructor,Outstanding,?
 fa2012,"MUSIC",REYES III,D,TA,Outstanding,101
 fa2012,"MUSIC",REYES III,D,TA,Outstanding,107
-fa2012,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,999
+fa2012,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,?
 fa2012,"MUSIC",ROBERTS,L,TA,Excellent,169
 fa2012,"MUSIC",RUMBELOW,R,Instructor,Outstanding,268
 fa2012,"MUSIC",SENNET,R,Instructor,Outstanding,450
-fa2012,"MUSIC",SENNET,R,Instructor,Outstanding,999
+fa2012,"MUSIC",SENNET,R,Instructor,Outstanding,?
 fa2012,"MUSIC",SEO,J,TA,Excellent,201
 fa2012,"MUSIC",SILETTI,M,TA,Outstanding,130
 fa2012,"MUSIC",SOLYA,A,Instructor,Outstanding,207
@@ -1770,7 +1771,7 @@ fa2012,"MUSIC",WUCHNER,E,TA,Excellent,313
 fa2012,"MUSIC",WYATT,S,Instructor,Outstanding,199
 fa2012,"MUSIC",WYATT,S,Instructor,Outstanding,407
 fa2012,"MUSIC",YANG,A,TA,Excellent,242
-fa2012,"MUSIC",YEUNG,A,Instructor,Outstanding,999
+fa2012,"MUSIC",YEUNG,A,Instructor,Outstanding,?
 fa2012,"MUSIC",ZIEGEL,A,Instructor,Excellent,130
 fa2012,"MUSIC",ZIEGEL,A,Instructor,Excellent,313
 fa2012,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",CHIAVACCI,S,TA,Excellent,499
@@ -1938,6 +1939,7 @@ fa2012,"POLITICAL SCIENCE",SULKIN,T,Instructor,Excellent,503
 fa2012,"POLITICAL SCIENCE",USRY,K,TA,Excellent,101
 fa2012,"POLITICAL SCIENCE",VANDERMOST,N,TA,Excellent,100
 fa2012,"POLITICAL SCIENCE",WAEISS,C,TA,Excellent,240
+fa2012,"POLITICAL SCIENCE",WINTERS,M,Instructor,Outstanding,494
 fa2012,"POLITICAL SCIENCE",WONG,C,Instructor,Excellent,300
 fa2012,"PSYCHOLOGY",BECK,D,Instructor,Excellent,453
 fa2012,"PSYCHOLOGY",BENSON,T,Instructor,Excellent,340

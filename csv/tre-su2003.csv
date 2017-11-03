@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 su2003,"ACCOUNTANCY",CHANDLER,J,Instructor,Excellent,304
 su2003,"ACCOUNTANCY",FELLER,A,Instructor,Excellent,303
 su2003,"ACCOUNTANCY",FINGLAND,S,TA,Outstanding,301
@@ -71,12 +71,12 @@ su2003,"MUSIC",LUND,E,Instructor,Excellent,300
 su2003,"PHYSICS",FLECK,P,TA,Excellent,101
 su2003,"PHYSICS",GERIG,A,TA,Excellent,111
 su2003,"PHYSICS",HARP,B,TA,Excellent,112
-su2003,"PHYSICS",  KIM,Y,TA,Outstanding,111
-su2003,"PHYSICS",  KOLB,L,TA,Outstanding,114
-su2003,"PHYSICS",  KOLB,L,TA,Outstanding,104
+su2003,"PHYSICS",KIM,Y,TA,Outstanding,111
+su2003,"PHYSICS",KOLB,L,TA,Outstanding,114
+su2003,"PHYSICS",KOLB,L,TA,Outstanding,104
 su2003,"PHYSICS",RAO,S,TA,Excellent,112
-su2003,"PHYSICS",  SMITH,A,TA,Outstanding,102
-su2003,"PHYSICS",  STRELIOFF,C,TA,Outstanding,101
+su2003,"PHYSICS",SMITH,A,TA,Outstanding,102
+su2003,"PHYSICS",STRELIOFF,C,TA,Outstanding,101
 su2003,"PHYSICS",TUNGUZ,B,TA,Excellent,112
 su2003,"POLITICAL SCIENCE",BUMGARDNER,N,TA,Excellent,281
 su2003,"POLITICAL SCIENCE",MCQUIDE,B,TA,Excellent,100

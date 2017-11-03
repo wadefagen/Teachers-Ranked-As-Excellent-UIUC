@@ -1018,7 +1018,7 @@ BEUPRE,J        TA   285
  IOZZO,N       TA 232
  KIM,D             240
  KIM,D         TA 261
- LIEBMAN,J         3862
+ LIEBMAN,J         386
  MACKIN,T          458
  MCNAB,R       TA 330
 *NAYFEH,T      TA 240

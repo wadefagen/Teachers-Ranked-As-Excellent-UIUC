@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 su2005,"ACCOUNTANCY",CHANDLER,J,Instructor,Excellent,593
 su2005,"ACCOUNTANCY",FELLER,A,Instructor,Excellent,201
 su2005,"ACCOUNTANCY",FINNEGAN,T,Instructor,Excellent,202
@@ -15,7 +15,7 @@ su2005,"ATMOSPHERIC SCIENCES",JACKMAN,S,TA,Excellent,100
 su2005,"AVIATION",BOYD,D,Instructor,Outstanding,320
 su2005,"AVIATION",FANONE,J,Instructor,Excellent,210
 su2005,"AVIATION",JONES,W,Instructor,Outstanding,130
-su2005,"AVIATION",MALLMAN,K,Instructor,Excellent,
+su2005,"AVIATION",MALLMAN,K,Instructor,Excellent,?
 su2005,"AVIATION",UNANDER,S,Instructor,Excellent,381
 su2005,"BUSINESS ADMINISTRATION",BAER,M,TA,Excellent,310
 su2005,"BUSINESS ADMINISTRATION",DANE,E,TA,Excellent,310
@@ -102,13 +102,13 @@ su2005,"PHILOSOPHY",BYRNE,C,TA,Excellent,102
 su2005,"PHILOSOPHY",ZUSMAN,S,TA,Excellent,101
 su2005,"PHYSICS",ANDUAGA,I,TA,Excellent,101
 su2005,"PHYSICS",BEDNARZ,M,TA,Excellent,212
-su2005,"PHYSICS",  BORA,F,TA,Outstanding,211
-su2005,"PHYSICS",  CHRISTIE,D,TA,Outstanding,102
+su2005,"PHYSICS",BORA,F,TA,Outstanding,211
+su2005,"PHYSICS",CHRISTIE,D,TA,Outstanding,102
 su2005,"PHYSICS",COOK,J,TA,Excellent,212
 su2005,"PHYSICS",DELGADO,M,TA,Excellent,212
 su2005,"PHYSICS",FENDT,W,TA,Excellent,101
-su2005,"PHYSICS",  KUNZ,M,TA,Outstanding,102
-su2005,"PHYSICS",  SAYRE,J,TA,Outstanding,101
+su2005,"PHYSICS",KUNZ,M,TA,Outstanding,102
+su2005,"PHYSICS",SAYRE,J,TA,Outstanding,101
 su2005,"PHYSICS",SHOAF,C,Instructor,Excellent,102
 su2005,"PHYSICS",TAL,G,TA,Excellent,101
 su2005,"POLITICAL SCIENCE",MCQUIDE,B,TA,Excellent,220

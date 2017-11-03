@@ -2,7 +2,7 @@
 
 A collection of all "Teachers Ranked as Excellent" at UIUC from Fall 1993 to present (Summer 2017).
 
-[A single CSV containing all of the data can be downloaded here.][Single_PDF_Download]
+[A single CSV containing all of the data can be downloaded here.][Single_PDF_Download] (~85,000 rows)
 
 [Single_PDF_Download]: https://raw.githubusercontent.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC/master/TRE-UIUC-AllYears.csv
 
@@ -40,8 +40,8 @@ All CSVs contain eight fields, with field labels in the first row and data in al
 
 - `ranking`: `Excellent` or `Outstanding`
 
-- `course`: The course the teacher was ranked as excellent.  If no course is given, the `course` field is empty (this includes cases when the raw data lists the course as `0` or `000`).
-  * Examples: `199`, `225`, `560`
+- `course`: The course the teacher was ranked as excellent.  If no course is given, the `course` field is set to `?` (this includes cases when the raw data lists the course as `0`, `000`, or `999`).
+  * Examples: `199`, `225`, `560`, `?`
 
 
 #### Ranked as Excellent in Multiple Courses in One Semester

@@ -1148,10 +1148,10 @@ FINANCE
   D                          419
   WASPI,K                    521,580
 * WEISBENNER,S               500,512,516
-* WIDDICKS,M
-                   ARTS
-FINE AND APPLIED
-                          TA   101
+* WIDDICKS,M              TA   101
+
+FINE AND APPLIED ARTS
+                          
   ALBRECHT,L              TA   101
 * BARBER,                 TA   101
   B                       TA   101

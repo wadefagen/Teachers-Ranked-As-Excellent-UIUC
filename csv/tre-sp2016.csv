@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 sp2016,"ACCOUNTANCY",AHMED,W,Instructor,Excellent,593
 sp2016,"ACCOUNTANCY",CANTIERI,K,TA,Outstanding,202
 sp2016,"ACCOUNTANCY",CHANDLER,J,Instructor,Excellent,512
@@ -740,7 +740,7 @@ sp2016,"CROP SCIENCES",KOLB,F,Instructor,Excellent,453
 sp2016,"CROP SCIENCES",MOOSE,S,Instructor,Excellent,261
 sp2016,"CROP SCIENCES",PIGNON,C,TA,Excellent,116
 sp2016,"CROP SCIENCES",RATCLIFFE,S,Instructor,Excellent,593
-sp2016,"CROP SCIENCES",IMMONS,F,Instructor,Outstanding,112
+sp2016,"CROP SCIENCES",SIMMONS,F,Instructor,Outstanding,112
 sp2016,"CROP SCIENCES",TRANEL,P,Instructor,Excellent,428
 sp2016,"CROP SCIENCES",WARD,R,TA,Outstanding,112
 sp2016,"CROP SCIENCES",WORTMAN,S,Instructor,Excellent,100
@@ -848,8 +848,8 @@ sp2016,"ECONOMICS",KHAN,A,TA,Outstanding,303
 sp2016,"ECONOMICS",KHAZRA,N,TA,Outstanding,302
 sp2016,"ECONOMICS",KIM,K,TA,Excellent,202
 sp2016,"ECONOMICS",KLEEMANS,M,Instructor,Outstanding,490
-sp2016,"ECONOMICS",LEE,J,Instructor,Excellent,aemyun         TA   202
-sp2016,"ECONOMICS",LEE,J,Instructor,Excellent,iHyung              590
+sp2016,"ECONOMICS",LEE,Jaemyun,TA,Excellent,202
+sp2016,"ECONOMICS",LEE,JiHyung,Instructor,Excellent,590
 sp2016,"ECONOMICS",LI,Z,Instructor,Excellent,490
 sp2016,"ECONOMICS",MARSHALL,G,Instructor,Outstanding,480
 sp2016,"ECONOMICS",MELROSE,N,Instructor,Excellent,198
@@ -1091,8 +1091,8 @@ sp2016,"ENGLISH",WALTERS,K,TA,Excellent,250
 sp2016,"ENGLISH",WRIGHT,C,Instructor,Outstanding,514
 sp2016,"ENGLISH",WRIGHT,D,Instructor,Outstanding,300
 sp2016,"ENGLISH",WRIGHT,D,Instructor,Outstanding,396
-sp2016,"ENGLISH",YOUNG,J,Instructor,Outstanding,ARVIS        TA   255
-sp2016,"ENGLISH",YOUNG,J,Instructor,Outstanding,ESSICA       TA   109
+sp2016,"ENGLISH",YOUNG,JARVIS,TA,Outstanding,255
+sp2016,"ENGLISH",YOUNG,JESSICA,TA,Outstanding,109
 sp2016,"ENGLISH AS AN INTERNATIONAL LANGUAGE AND ENGLISH AS A SECOND LANGUAGE",ARMSTRONG,A,TA,Excellent,115
 sp2016,"ENGLISH AS AN INTERNATIONAL LANGUAGE AND ENGLISH AS A SECOND LANGUAGE",ARRIGO,J,Instructor,Outstanding,111
 sp2016,"ENGLISH AS AN INTERNATIONAL LANGUAGE AND ENGLISH AS A SECOND LANGUAGE",ARRIGO,J,Instructor,Outstanding,506
@@ -1573,6 +1573,7 @@ sp2016,"LAW",TUTT,S,Instructor,Outstanding,693
 sp2016,"LAW",WASSERMAN,M,Instructor,Excellent,798
 sp2016,"LAW",WILSON,R,Instructor,Excellent,792
 sp2016,"LAW",WINSHIP,V,Instructor,Excellent,607
+sp2016,"LAW",WINTER,G,Instructor,Excellent,792
 sp2016,"LIBERAL ARTS & SCIENCES",SCHOEPLEIN,M,Instructor,Excellent,199
 sp2016,"LINGUISTICS",ALSHABEEB,F,TA,Outstanding,202
 sp2016,"LINGUISTICS",BULKES,N,TA,Excellent,225
@@ -1848,18 +1849,19 @@ sp2016,"MUSIC",CARRILLO,C,Instructor,Excellent,102
 sp2016,"MUSIC",CARRILLO,T,Instructor,Excellent,361
 sp2016,"MUSIC",CARRILLO,T,Instructor,Excellent,450
 sp2016,"MUSIC",DAVAL,C,Instructor,Outstanding,350
-sp2016,"MUSIC",DAVAL,C,Instructor,Outstanding,999
+sp2016,"MUSIC",DAVAL,C,Instructor,Outstanding,?
 sp2016,"MUSIC",DAVIS,O,Instructor,Outstanding,261
-sp2016,"MUSIC",DAVIS,O,Instructor,Outstanding,999
+sp2016,"MUSIC",DAVIS,O,Instructor,Outstanding,?
 sp2016,"MUSIC",EHLEN,J,Instructor,Outstanding,577
 sp2016,"MUSIC",EHLEN,J,Instructor,Outstanding,580
+sp2016,"MUSIC",FALLS,A,TA,Outstanding,169
 sp2016,"MUSIC",FLORES,R,Instructor,Excellent,350
-sp2016,"MUSIC",FREIVOGEL,E,Instructor,Outstanding,999
+sp2016,"MUSIC",FREIVOGEL,E,Instructor,Outstanding,?
 sp2016,"MUSIC",GIEM,N,TA,Excellent,250
-sp2016,"MUSIC",HAKEN,R,Instructor,Excellent,999
+sp2016,"MUSIC",HAKEN,R,Instructor,Excellent,?
 sp2016,"MUSIC",HATFIELD,T,TA,Excellent,133
 sp2016,"MUSIC",HELMRICH,D,Instructor,Excellent,558
-sp2016,"MUSIC",HERRERA,R,Instructor,Excellent,999
+sp2016,"MUSIC",HERRERA,R,Instructor,Excellent,?
 sp2016,"MUSIC",HICKEY,J,Instructor,Outstanding,173
 sp2016,"MUSIC",HICKEY,J,Instructor,Outstanding,266
 sp2016,"MUSIC",HIRANMAYENA,I,TA,Excellent,133
@@ -1871,12 +1873,12 @@ sp2016,"MUSIC",JORGE,J,TA,Outstanding,133
 sp2016,"MUSIC",KENNEY,R,TA,Outstanding,169
 sp2016,"MUSIC",KINDERMAN,W,Instructor,Excellent,314
 sp2016,"MUSIC",KINDERMAN,W,Instructor,Excellent,519
-sp2016,"MUSIC",KOUZOV,D,Instructor,Excellent,999
+sp2016,"MUSIC",KOUZOV,D,Instructor,Excellent,?
 sp2016,"MUSIC",KRUSE,A,Instructor,Outstanding,240
 sp2016,"MUSIC",KRUSE,A,Instructor,Outstanding,243
 sp2016,"MUSIC",LEE,D,TA,Excellent,202
 sp2016,"MUSIC",LEE,D,TA,Excellent,208
-sp2016,"MUSIC",LEE,N,Instructor,Outstanding,999
+sp2016,"MUSIC",LEE,N,Instructor,Outstanding,?
 sp2016,"MUSIC",LUND,E,Instructor,Outstanding,404
 sp2016,"MUSIC",LUND,E,Instructor,Outstanding,502
 sp2016,"MUSIC",LUND,E,Instructor,Outstanding,506
@@ -1890,9 +1892,9 @@ sp2016,"MUSIC",MEGILL,A,Instructor,Outstanding,260
 sp2016,"MUSIC",MEGILL,A,Instructor,Outstanding,261
 sp2016,"MUSIC",MEGILL,A,Instructor,Outstanding,450
 sp2016,"MUSIC",MOERSCH,C,Instructor,Outstanding,527
-sp2016,"MUSIC",MOERSCH,C,Instructor,Outstanding,999
+sp2016,"MUSIC",MOERSCH,C,Instructor,Outstanding,?
 sp2016,"MUSIC",MOERSCH,W,Instructor,Excellent,562
-sp2016,"MUSIC",MOERSCH,W,Instructor,Excellent,999
+sp2016,"MUSIC",MOERSCH,W,Instructor,Excellent,?
 sp2016,"MUSIC",MORRIS,H,TA,Excellent,133
 sp2016,"MUSIC",NGUYEN,D,TA,Excellent,102
 sp2016,"MUSIC",NICHOLS,J,Instructor,Outstanding,344
@@ -1905,9 +1907,9 @@ sp2016,"MUSIC",PETERSON,B,Instructor,Outstanding,269
 sp2016,"MUSIC",PETERSON,B,Instructor,Outstanding,332
 sp2016,"MUSIC",PUGH,J,Instructor,Outstanding,266
 sp2016,"MUSIC",PUGH,J,Instructor,Outstanding,365
-sp2016,"MUSIC",REDMAN,Y,Instructor,Outstanding,999
+sp2016,"MUSIC",REDMAN,Y,Instructor,Outstanding,?
 sp2016,"MUSIC",SARVELA,K,TA,Outstanding,147
-sp2016,"MUSIC",SARVELA,K,TA,Outstanding,999
+sp2016,"MUSIC",SARVELA,K,TA,Outstanding,?
 sp2016,"MUSIC",SHAW,K,TA,Excellent,108
 sp2016,"MUSIC",SHAW,K,TA,Excellent,202
 sp2016,"MUSIC",SILETTI,M,TA,Outstanding,130
@@ -1922,7 +1924,7 @@ sp2016,"MUSIC",SPONCIA,K,TA,Outstanding,266
 sp2016,"MUSIC",STEPHENS,J,Instructor,Outstanding,164
 sp2016,"MUSIC",STEPHENS,J,Instructor,Outstanding,350
 sp2016,"MUSIC",STEPHENS,J,Instructor,Outstanding,508
-sp2016,"MUSIC",STEPHENS,J,Instructor,Outstanding,999
+sp2016,"MUSIC",STEPHENS,J,Instructor,Outstanding,?
 sp2016,"MUSIC",STOKES,E,TA,Outstanding,314
 sp2016,"MUSIC",SUGG,W,TA,Excellent,272
 sp2016,"MUSIC",SWEET,B,Instructor,Excellent,444
@@ -1932,7 +1934,7 @@ sp2016,"MUSIC",TINDALL-GIBSON,A,TA,Outstanding,169
 sp2016,"MUSIC",WHEELER,B,TA,Excellent,133
 sp2016,"MUSIC",WUCHNER,E,TA,Outstanding,130
 sp2016,"MUSIC",YEUNG,A,Instructor,Outstanding,350
-sp2016,"MUSIC",YEUNG,A,Instructor,Outstanding,999
+sp2016,"MUSIC",YEUNG,A,Instructor,Outstanding,?
 sp2016,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",ARAI,Y,Instructor,Excellent,201
 sp2016,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",BREYER,E,TA,Outstanding,287
 sp2016,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",GRACON,R,Instructor,Outstanding,594
@@ -2098,6 +2100,7 @@ sp2016,"POLITICAL SCIENCE",SCHEIRER,J,TA,Outstanding,282
 sp2016,"POLITICAL SCIENCE",SULKIN,T,Instructor,Outstanding,598
 sp2016,"POLITICAL SCIENCE",TESTA,P,TA,Outstanding,230
 sp2016,"POLITICAL SCIENCE",VASQUEZ,J,Instructor,Excellent,300
+sp2016,"POLITICAL SCIENCE",WINTERS,M,Instructor,Excellent,345
 sp2016,"PSYCHOLOGY",BEILSTEIN,S,TA,Excellent,100
 sp2016,"PSYCHOLOGY",BELAGODU,A,TA,Excellent,311
 sp2016,"PSYCHOLOGY",BENJAMIN,A,Instructor,Excellent,518

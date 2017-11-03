@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 sp2015,"ACCOUNTANCY",CHORVAT,E,Instructor,Excellent,312
 sp2015,"ACCOUNTANCY",DAVIS,G,Instructor,Excellent,302
 sp2015,"ACCOUNTANCY",ELLIOTT,W,Instructor,Outstanding,410
@@ -83,6 +83,7 @@ sp2015,"AGRICULTURAL & CONSUMER ECONOMICS",SHRINIVAS,A,TA,Excellent,427
 sp2015,"AGRICULTURAL & CONSUMER ECONOMICS",SHUKLA,P,TA,Outstanding,251
 sp2015,"AGRICULTURAL & CONSUMER ECONOMICS",STODDARD,P,Instructor,Outstanding,231
 sp2015,"AGRICULTURAL & CONSUMER ECONOMICS",STODDARD,P,Instructor,Outstanding,232
+sp2015,"AGRICULTURAL & CONSUMER ECONOMICS",WINTER-NELSON,A,Instructor,Outstanding,594
 sp2015,"AGRICULTURAL EDUCATION",BURGOON,L,Instructor,Excellent,260
 sp2015,"AGRICULTURAL EDUCATION",COLLIER,D,TA,Outstanding,260
 sp2015,"AGRICULTURAL EDUCATION",COLLINS,J,TA,Excellent,260
@@ -674,6 +675,7 @@ sp2015,"CURRICULUM & INSTRUCTION",SMITH,P,Instructor,Excellent,321
 sp2015,"CURRICULUM & INSTRUCTION",SMITH,P,Instructor,Excellent,576
 sp2015,"CURRICULUM & INSTRUCTION",SMITH,P,Instructor,Excellent,590
 sp2015,"CURRICULUM & INSTRUCTION",SMITH,S,Instructor,Excellent,420
+sp2015,"CURRICULUM & INSTRUCTION",SUMMERS,R,TA,Excellent,450
 sp2015,"CURRICULUM & INSTRUCTION",THORSTENSSON,L,Instructor,Excellent,415
 sp2015,"CURRICULUM & INSTRUCTION",WILLIS,A,Instructor,Outstanding,404
 sp2015,"DANCE",BECKER,S,Instructor,Excellent,199
@@ -838,6 +840,7 @@ sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",DEVETTER,B,TA,Excellent,110
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",DING,Q,TA,Excellent,444
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",DOMINGUEZ-GARCIA,A,Instructor,Excellent,554
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",DRAGIC,P,Instructor,Excellent,350
+sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",FALLAHPOUR,M,Instructor,Excellent,329
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",FAN,Y,TA,Excellent,486
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",FRANKE,S,Instructor,Excellent,453
 sp2015,"ELECTRICAL AND COMPUTER ENGINEERING",GABULA,B,TA,Excellent,385
@@ -1681,7 +1684,7 @@ sp2015,"MOLECULAR AND CELL BIOLOGY",YU,M,TA,Outstanding,247
 sp2015,"MUSIC",ASNAWA,I,Instructor,Excellent,252
 sp2015,"MUSIC",BASHFORD,C,Instructor,Excellent,418
 sp2015,"MUSIC",BEISEL,K,TA,Excellent,314
-sp2015,"MUSIC",BENEDICT,E,TA,Outstanding,999
+sp2015,"MUSIC",BENEDICT,E,TA,Outstanding,?
 sp2015,"MUSIC",BOWERS,Z,TA,Excellent,158
 sp2015,"MUSIC",BREITHAUPT,P,TA,Excellent,133
 sp2015,"MUSIC",BROOKS,R,TA,Excellent,169
@@ -1694,24 +1697,25 @@ sp2015,"MUSIC",CARRILLO,T,Instructor,Outstanding,450
 sp2015,"MUSIC",CASKIN,T,TA,Outstanding,241
 sp2015,"MUSIC",CHAO,T,TA,Excellent,202
 sp2015,"MUSIC",CHAO,T,TA,Excellent,208
-sp2015,"MUSIC",CHASANOV,E,Instructor,Excellent,999
+sp2015,"MUSIC",CHASANOV,E,Instructor,Excellent,?
 sp2015,"MUSIC",COLEMAN,B,Instructor,Excellent,181
 sp2015,"MUSIC",COLEMAN,B,Instructor,Excellent,430
 sp2015,"MUSIC",CORDOBA,D,TA,Outstanding,169
 sp2015,"MUSIC",CRYDERMAN-WEBER,M,TA,Outstanding,133
-sp2015,"MUSIC",DAVAL,C,Instructor,Outstanding,999
+sp2015,"MUSIC",DAVAL,C,Instructor,Outstanding,?
 sp2015,"MUSIC",DAVIS,O,Instructor,Outstanding,261
-sp2015,"MUSIC",DAVIS,O,Instructor,Outstanding,999
-sp2015,"MUSIC",DENHAM,E,TA,Outstanding,999
+sp2015,"MUSIC",DAVIS,O,Instructor,Outstanding,?
+sp2015,"MUSIC",DENHAM,E,TA,Outstanding,?
 sp2015,"MUSIC",EHLEN,T,Instructor,Excellent,580
+sp2015,"MUSIC",FALLS,A,TA,Outstanding,069
 sp2015,"MUSIC",FLORES,R,Instructor,Outstanding,350
-sp2015,"MUSIC",FLORES,R,Instructor,Outstanding,999
-sp2015,"MUSIC",FREIVOGEL,E,Instructor,Outstanding,999
+sp2015,"MUSIC",FLORES,R,Instructor,Outstanding,?
+sp2015,"MUSIC",FREIVOGEL,E,Instructor,Outstanding,?
 sp2015,"MUSIC",GINDES,I,TA,Excellent,173
-sp2015,"MUSIC",GRAY,L,Instructor,Outstanding,999
+sp2015,"MUSIC",GRAY,L,Instructor,Outstanding,?
 sp2015,"MUSIC",GRIGGS,J,Instructor,Excellent,499
 sp2015,"MUSIC",HENRY,L,TA,Excellent,314
-sp2015,"MUSIC",HERRERA,R,Instructor,Outstanding,999
+sp2015,"MUSIC",HERRERA,R,Instructor,Outstanding,?
 sp2015,"MUSIC",HOUSER,B,Instructor,Outstanding,269
 sp2015,"MUSIC",HOUSER,B,Instructor,Outstanding,274
 sp2015,"MUSIC",HOUSER,B,Instructor,Outstanding,332
@@ -1720,10 +1724,10 @@ sp2015,"MUSIC",JERZAK,A,TA,Outstanding,169
 sp2015,"MUSIC",JOHNSON,C,TA,Excellent,169
 sp2015,"MUSIC",JOHNSON,S,Instructor,Outstanding,181
 sp2015,"MUSIC",JORGE,J,TA,Excellent,133
-sp2015,"MUSIC",KEEBLE,J,Instructor,Excellent,999
+sp2015,"MUSIC",KEEBLE,J,Instructor,Excellent,?
 sp2015,"MUSIC",KIVEL,T,TA,Outstanding,169
 sp2015,"MUSIC",KOUZOV,D,Instructor,Outstanding,350
-sp2015,"MUSIC",KOUZOV,D,Instructor,Outstanding,999
+sp2015,"MUSIC",KOUZOV,D,Instructor,Outstanding,?
 sp2015,"MUSIC",KRUSE,A,Instructor,Outstanding,243
 sp2015,"MUSIC",LEE,D,TA,Excellent,108
 sp2015,"MUSIC",LUND,E,Instructor,Excellent,404
@@ -1731,15 +1735,15 @@ sp2015,"MUSIC",LUND,E,Instructor,Excellent,502
 sp2015,"MUSIC",MEGILL,A,Instructor,Outstanding,260
 sp2015,"MUSIC",MEGILL,A,Instructor,Outstanding,450
 sp2015,"MUSIC",MOERSCH,C,Instructor,Outstanding,450
-sp2015,"MUSIC",MOERSCH,C,Instructor,Outstanding,999
-sp2015,"MUSIC",MOERSCH,W,Instructor,Excellent,999
+sp2015,"MUSIC",MOERSCH,C,Instructor,Outstanding,?
+sp2015,"MUSIC",MOERSCH,W,Instructor,Excellent,?
 sp2015,"MUSIC",PISANO,J,TA,Outstanding,266
 sp2015,"MUSIC",REDMAN,Y,Instructor,Outstanding,475
-sp2015,"MUSIC",REDMAN,Y,Instructor,Outstanding,999
-sp2015,"MUSIC",ROBINSON,D,Instructor,Excellent,999
+sp2015,"MUSIC",REDMAN,Y,Instructor,Outstanding,?
+sp2015,"MUSIC",ROBINSON,D,Instructor,Excellent,?
 sp2015,"MUSIC",SAPP,T,TA,Excellent,108
 sp2015,"MUSIC",SCHLEICHER,D,Instructor,Excellent,250
-sp2015,"MUSIC",SENNET,R,Instructor,Outstanding,999
+sp2015,"MUSIC",SENNET,R,Instructor,Outstanding,?
 sp2015,"MUSIC",SHAW,K,TA,Outstanding,202
 sp2015,"MUSIC",SHAW,K,TA,Outstanding,208
 sp2015,"MUSIC",SILETTI,M,TA,Excellent,501
@@ -1753,7 +1757,7 @@ sp2015,"MUSIC",SPENCER,J,Instructor,Outstanding,450
 sp2015,"MUSIC",SPENCER,J,Instructor,Outstanding,463
 sp2015,"MUSIC",SPONCIA,K,TA,Outstanding,169
 sp2015,"MUSIC",STEPHENS,J,Instructor,Outstanding,350
-sp2015,"MUSIC",STEPHENS,J,Instructor,Outstanding,999
+sp2015,"MUSIC",STEPHENS,J,Instructor,Outstanding,?
 sp2015,"MUSIC",STOKES,E,TA,Excellent,133
 sp2015,"MUSIC",SWEET,B,Instructor,Outstanding,240
 sp2015,"MUSIC",SWEET,B,Instructor,Outstanding,343
@@ -1761,12 +1765,12 @@ sp2015,"MUSIC",SYER,K,Instructor,Outstanding,413
 sp2015,"MUSIC",SYER,K,Instructor,Outstanding,518
 sp2015,"MUSIC",TANG,L,TA,Excellent,272
 sp2015,"MUSIC",THARP,R,Instructor,Outstanding,507
-sp2015,"MUSIC",THARP,R,Instructor,Outstanding,999
+sp2015,"MUSIC",THARP,R,Instructor,Outstanding,?
 sp2015,"MUSIC",TINDALL-GIBSON,A,TA,Excellent,169
 sp2015,"MUSIC",WOLFE,R,TA,Excellent,169
 sp2015,"MUSIC",WOLLER,A,TA,Excellent,314
 sp2015,"MUSIC",WUCHNER,E,Instructor,Excellent,501
-sp2015,"MUSIC",YEUNG,A,Instructor,Excellent,999
+sp2015,"MUSIC",YEUNG,A,Instructor,Excellent,?
 sp2015,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",AHLERS,A,TA,Outstanding,285
 sp2015,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",AHLERS,A,TA,Outstanding,407
 sp2015,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",BREYER,E,TA,Excellent,287
@@ -1963,6 +1967,8 @@ sp2015,"POLITICAL SCIENCE",SCHEIRER,J,TA,Excellent,280
 sp2015,"POLITICAL SCIENCE",SENTERS,K,TA,Excellent,241
 sp2015,"POLITICAL SCIENCE",SIN,G,Instructor,Excellent,303
 sp2015,"POLITICAL SCIENCE",WILLIAMS,T,TA,Excellent,220
+sp2015,"POLITICAL SCIENCE",WINTERS,M,Instructor,Excellent,241
+sp2015,"POLITICAL SCIENCE",WINTERS,M,Instructor,Excellent,345
 sp2015,"PSYCHOLOGY",ANDERSON,N,TA,Excellent,331
 sp2015,"PSYCHOLOGY",BECK,D,Instructor,Excellent,504
 sp2015,"PSYCHOLOGY",BENSON,T,Instructor,Outstanding,341

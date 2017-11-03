@@ -1,4 +1,4 @@
-term,unit,lname,fname,role,ranking,courses
+term,unit,lname,fname,role,ranking,course
 sp2017,"ACCOUNTANCY",AGAPITO,C,TA,Excellent,202
 sp2017,"ACCOUNTANCY",AHMED,W,Instructor,Excellent,593
 sp2017,"ACCOUNTANCY",CHEN,C,Instructor,Excellent,410
@@ -273,7 +273,7 @@ sp2017,"BIOENGINEERING",SMITH,A,Instructor,Excellent,479
 sp2017,"BIOENGINEERING",SMITH,A,Instructor,Excellent,598
 sp2017,"BIOENGINEERING",SUTTON,B,Instructor,Excellent,420
 sp2017,"BIOENGINEERING",UNDERHILL,G,Instructor,Excellent,498
-sp2017,"BUSINESS",LITHGOW, ,Instructor,Excellent,199
+sp2017,"BUSINESS",LITHGOW,,Instructor,Excellent,199
 sp2017,"BUSINESS",TURNER,N,Instructor,Outstanding,199
 sp2017,"BUSINESS ADMINISTRATION",ALBARRACIN,D,Instructor,Excellent,570
 sp2017,"BUSINESS ADMINISTRATION",ANAND,G,Instructor,Excellent,379
@@ -868,7 +868,7 @@ sp2017,"ECONOMICS",KIM,K,TA,Excellent,202
 sp2017,"ECONOMICS",KRASA,S,Instructor,Excellent,533
 sp2017,"ECONOMICS",KYRIAZIS,A,TA,Excellent,202
 sp2017,"ECONOMICS",LAUMER,S,TA,Outstanding,303
-sp2017,"ECONOMICS",LEE,J,Instructor,Excellent,iHyung            590
+sp2017,"ECONOMICS",LEE,JiHyung,Instructor,Excellent,590
 sp2017,"ECONOMICS",LEITE,L,TA,Excellent,220
 sp2017,"ECONOMICS",LU,C,TA,Excellent,102
 sp2017,"ECONOMICS",MARSHALL,G,Instructor,Outstanding,590
@@ -1892,44 +1892,45 @@ sp2017,"MUSIC",CARRILLO,T,Instructor,Outstanding,361
 sp2017,"MUSIC",CARRILLO,T,Instructor,Outstanding,450
 sp2017,"MUSIC",COLEMAN,B,Instructor,Excellent,181
 sp2017,"MUSIC",DAVIS,O,Instructor,Outstanding,261
-sp2017,"MUSIC",DAVIS,O,Instructor,Outstanding,999
-sp2017,"MUSIC",DEE,J,Instructor,Outstanding,999
+sp2017,"MUSIC",DAVIS,O,Instructor,Outstanding,?
+sp2017,"MUSIC",DEE,J,Instructor,Outstanding,?
 sp2017,"MUSIC",DEJA,R,Instructor,Excellent,418
+sp2017,"MUSIC",FALLS,A,TA,Excellent,169
 sp2017,"MUSIC",FIELDSTEEL,E,Instructor,Outstanding,409
 sp2017,"MUSIC",FIELDSTEEL,E,Instructor,Outstanding,499
 sp2017,"MUSIC",FIORENTINO,M,TA,Excellent,140
 sp2017,"MUSIC",FLORES,R,Instructor,Outstanding,158
-sp2017,"MUSIC",FLORES,R,Instructor,Outstanding,999
+sp2017,"MUSIC",FLORES,R,Instructor,Outstanding,?
 sp2017,"MUSIC",FREIVOGEL,E,Instructor,Outstanding,350
-sp2017,"MUSIC",FREIVOGEL,M,Instructor,Outstanding,999
+sp2017,"MUSIC",FREIVOGEL,M,Instructor,Outstanding,?
 sp2017,"MUSIC",GALLO,D,Instructor,Outstanding,342
 sp2017,"MUSIC",GARDNER,J,TA,Excellent,272
 sp2017,"MUSIC",GRAY,L,Instructor,Outstanding,167
 sp2017,"MUSIC",GRAY,L,Instructor,Outstanding,499
-sp2017,"MUSIC",GRAY,L,Instructor,Outstanding,999
+sp2017,"MUSIC",GRAY,L,Instructor,Outstanding,?
 sp2017,"MUSIC",GUZMAN BORRERO,J,TA,Outstanding,169
 sp2017,"MUSIC",GWALTNEY,B,TA,Excellent,169
-sp2017,"MUSIC",HAKEN,R,Instructor,Outstanding,999
+sp2017,"MUSIC",HAKEN,R,Instructor,Outstanding,?
 sp2017,"MUSIC",HATFIELD,T,TA,Outstanding,133
-sp2017,"MUSIC",HERRERA,R,Instructor,Excellent,999
+sp2017,"MUSIC",HERRERA,R,Instructor,Excellent,?
 sp2017,"MUSIC",HIRANMAYENA,I,TA,Outstanding,133
 sp2017,"MUSIC",HORTON,C,TA,Outstanding,314
 sp2017,"MUSIC",JANG,H,TA,Outstanding,173
 sp2017,"MUSIC",JOHNSON,S,Instructor,Outstanding,181
 sp2017,"MUSIC",JOHNSON,S,Instructor,Outstanding,468
 sp2017,"MUSIC",JORGE,J,TA,Outstanding,133
-sp2017,"MUSIC",KEEBLE,J,Instructor,Outstanding,999
-sp2017,"MUSIC",KORBE,A,TA,Outstanding,999
+sp2017,"MUSIC",KEEBLE,J,Instructor,Outstanding,?
+sp2017,"MUSIC",KORBE,A,TA,Outstanding,?
 sp2017,"MUSIC",LUBBEN,R,TA,Outstanding,169
 sp2017,"MUSIC",LUND,E,Instructor,Outstanding,400
 sp2017,"MUSIC",LUND,E,Instructor,Outstanding,507
 sp2017,"MUSIC",MARTIN,A,TA,Excellent,102
 sp2017,"MUSIC",MARTIN,A,TA,Excellent,208
-sp2017,"MUSIC",MCGOVERN,T,Instructor,Outstanding,999
+sp2017,"MUSIC",MCGOVERN,T,Instructor,Outstanding,?
 sp2017,"MUSIC",MCQUEEN,K,TA,Excellent,130
 sp2017,"MUSIC",MILLER,F,TA,Excellent,314
 sp2017,"MUSIC",MOERSCH,W,Instructor,Excellent,257
-sp2017,"MUSIC",MOERSCH,W,Instructor,Excellent,999
+sp2017,"MUSIC",MOERSCH,W,Instructor,Excellent,?
 sp2017,"MUSIC",MOLES,E,TA,Outstanding,102
 sp2017,"MUSIC",MORRIS,H,TA,Outstanding,133
 sp2017,"MUSIC",NGUYEN,D,TA,Outstanding,202
@@ -1941,9 +1942,9 @@ sp2017,"MUSIC",PETRIE,C,TA,Excellent,169
 sp2017,"MUSIC",PRAEGER,U,Instructor,Outstanding,501
 sp2017,"MUSIC",PRAEGER,U,Instructor,Outstanding,523
 sp2017,"MUSIC",RAYMOND,C,TA,Excellent,149
-sp2017,"MUSIC",REDMAN,Y,Instructor,Outstanding,999
-sp2017,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,
-sp2017,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,999
+sp2017,"MUSIC",REDMAN,Y,Instructor,Outstanding,?
+sp2017,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,?
+sp2017,"MUSIC",RICHTMEYER,D,Instructor,Outstanding,?
 sp2017,"MUSIC",SAPP,T,TA,Outstanding,108
 sp2017,"MUSIC",SAPP,T,TA,Outstanding,202
 sp2017,"MUSIC",SCHALLER,J,TA,Outstanding,240
@@ -1961,7 +1962,7 @@ sp2017,"MUSIC",SOLYA,A,Instructor,Outstanding,348
 sp2017,"MUSIC",SPENCER,J,Instructor,Outstanding,465
 sp2017,"MUSIC",STEPHENS,J,Instructor,Outstanding,164
 sp2017,"MUSIC",STEPHENS,J,Instructor,Outstanding,508
-sp2017,"MUSIC",STEPHENS,J,Instructor,Outstanding,999
+sp2017,"MUSIC",STEPHENS,J,Instructor,Outstanding,?
 sp2017,"MUSIC",STEWART,K,TA,Outstanding,169
 sp2017,"MUSIC",SUGG,W,TA,Outstanding,272
 sp2017,"MUSIC",SWEET,B,Instructor,Excellent,240
@@ -1977,7 +1978,7 @@ sp2017,"MUSIC",WAYNE,D,TA,Excellent,108
 sp2017,"MUSIC",WIELAND,C,TA,Excellent,102
 sp2017,"MUSIC",WIELAND,C,TA,Excellent,208
 sp2017,"MUSIC",YEUNG,A,Instructor,Outstanding,350
-sp2017,"MUSIC",YEUNG,A,Instructor,Outstanding,999
+sp2017,"MUSIC",YEUNG,A,Instructor,Outstanding,?
 sp2017,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",GREEN,E,TA,Excellent,310
 sp2017,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",GUAN,K,Instructor,Excellent,598
 sp2017,"NATURAL RESOURCES & ENVIRONMENTAL SCIENCES",LARSON,E,Instructor,Excellent,499
@@ -2016,8 +2017,8 @@ sp2017,"PHILOSOPHY",GILBERT,D,Instructor,Excellent,202
 sp2017,"PHILOSOPHY",GILBERT,D,Instructor,Excellent,453
 sp2017,"PHILOSOPHY",HILLMER,P,Instructor,Excellent,316
 sp2017,"PHILOSOPHY",KORMAN,D,Instructor,Outstanding,530
-sp2017,"PHILOSOPHY",LEE,S,Instructor,Excellent,eungil          TA 102
-sp2017,"PHILOSOPHY",LEE,S,Instructor,Excellent,teven           TA 100
+sp2017,"PHILOSOPHY",LEE,Seungil,TA,Excellent,102
+sp2017,"PHILOSOPHY",LEE,Steven,TA,Excellent,100
 sp2017,"PHILOSOPHY",LIVENGOOD,J,Instructor,Excellent,471
 sp2017,"PHILOSOPHY",MCCARTHY,T,Instructor,Excellent,439
 sp2017,"PHILOSOPHY",POLK,A,TA,Excellent,214
