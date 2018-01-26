@@ -9,10 +9,11 @@ A collection of all "Teachers Ranked as Excellent" at UIUC from Fall 1993 throug
 
 ## Background
 
-At the University of Illinois at Urbana-Champaign, every semester students complete an Instructor and Course Evaluation (ICES) questionnaire for each course they are enrolled.  The Center for Innovation in Teaching and Learning (CTIL) compiles this data into the list of "Teachers Ranked as Excellent" and publishes the names of those teaches in the local newspaper and [online as a PDF][TRE_CITL].
+At the University of Illinois at Urbana-Champaign, every semester students complete an [Instructor and Course Evaluation (ICES)][ICES_CITL] questionnaire for each course they are enrolled.  The [Center for Innovation in Teaching and Learning (CITL)][MAIN_CITL] compiles this data into the list of "Teachers Ranked as Excellent" and publishes the names of those teaches in the local newspaper and [online as a PDF][TRE_CITL].
 
 [TRE_CITL]: http://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent
-
+[ICES_CITL]: http://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)
+[MAIN_CITL]: http://citl.illinois.edu/
 
 ## Repository Contents
 
